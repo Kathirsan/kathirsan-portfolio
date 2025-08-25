@@ -104,45 +104,7 @@
   <footer class="footer">
     © 2025 Vivekanantharaja Kathirsan · Built with HTML, CSS & JS
   </footer>
-  body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1220;
-  color: #e5e7eb;
-  line-height: 1.6;
-}
-
-.container { max-width: 1000px; margin: auto; padding: 20px; }
-
-.navbar { position: sticky; top:0; background: #0f172a; padding: 10px; }
-.nav-inner { display: flex; justify-content: space-between; align-items: center; }
-.nav-links a { color: #e5e7eb; margin: 0 10px; text-decoration: none; }
-.nav-links a:hover { color: #38bdf8; }
-
-.hero { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 50px 20px; }
-.hero-text h1 { font-size: 2.5rem; }
-.hero-text span { color: #38bdf8; }
-.hero-img img { width: 220px; border-radius: 15px; border: 3px solid #2563eb; }
-
-.section { margin: 50px 0; }
-.section h2 { color: #38bdf8; }
-
-.grid { display: flex; flex-wrap: wrap; gap: 10px; }
-.tag { background: #1e40af; padding: 6px 12px; border-radius: 15px; }
-
-.card { background: #1e293b; padding: 15px; border-radius: 10px; margin: 10px 0; }
-.card h3 { margin-top: 0; }
-
-.footer { text-align: center; padding: 20px; background: #0f172a; margin-top: 40px; }
-// Smooth scrolling for nav links
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelector(link.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+ 
 
 </body>
 </html>
