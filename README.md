@@ -18,7 +18,7 @@
     <h1>Hello, I'm Kathirsan</h1>
     <p>B.Sc. Software Engineering Undergraduate at Sabaragamuwa University of Sri Lanka</p>
     <p>Career Objective: To utilize my free time productively by engaging in part-time work, while developing my skills and gaining professional experience.</p>
-    <img src=""C:\Users\HP\Pictures\Camera Roll\WhatsApp Image 2025-08-06 at 15.25.30.jpeg"" >
+    <img src="C:\Users\HP\Pictures\Camera Roll\WhatsApp Image 2025-08-06 at 15.25.30.jpeg" >
   </div>
   <div class="footer">© 2025 Kathirsan</div>
 </body>
@@ -145,46 +145,3 @@
   <div class="footer">© 2025 Kathirsan</div>
 </body>
 </html>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: #fff;
-  line-height: 1.6;
-}
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-.navbar {
-  background: #111;
-  padding: 10px;
-}
-.navbar a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-.navbar a:hover {
-  color: #0ff;
-}
-h1, h2 {
-  color: #0ff;
-}
-img {
-  border-radius: 10px;
-  max-width: 220px;
-}
-.card {
-  background: #111;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 10px;
-}
-.footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  margin-top: 40px;
-}
